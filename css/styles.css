@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+
+}
+
+.intro {
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 500px) {
+
+    header {
+        width: auto;
+    }
+
+    nav {
+        display: flex;
+        width: auto;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 60vw;
+        margin: auto;
+    }
+
+    li {
+        margin: 10px;
+        padding: 10px 50px;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro {
+        margin: auto;
+
+    }
+}
