@@ -27,6 +27,21 @@ ul {
     margin: auto;
 }
 
+.intro-section {
+    width: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.img1 {
+    width: auto;
+    margin: auto;
+}
+
+.project1 {
+    width: auto;
+}
+
 @media only screen and (max-width: 500px) {
 
     header {
@@ -55,5 +70,13 @@ ul {
     .intro {
         margin: auto;
 
+    }
+
+    .img1 {
+        width: auto;
+    }
+
+    .project1 {
+        width: auto;
     }
 }
