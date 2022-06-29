@@ -65,7 +65,7 @@ h1 {
     }
 
     li {
-        margin: 10px;
+        margin: 5px;
         padding: 10px 50px;
         background-color: white;
         width: 100%;
@@ -82,11 +82,22 @@ h1 {
     }
 
     img {
-        width: 70%;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 40px;
 
     }
 
     .portfolio {
         text-align: center;
+        background-color: white;
+        margin: 5px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .contact {
+        text-align: center;
+        padding-top: 40px;
     }
 }
