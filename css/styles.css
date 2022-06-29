@@ -42,6 +42,11 @@ ul {
     width: auto;
 }
 
+h2,
+h1 {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 500px) {
 
     header {
@@ -72,11 +77,16 @@ ul {
 
     }
 
-    .img1 {
+    .project1 {
         width: auto;
     }
 
-    .project1 {
-        width: auto;
+    img {
+        width: 70%;
+
+    }
+
+    .portfolio {
+        text-align: center;
     }
 }
