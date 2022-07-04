@@ -122,20 +122,37 @@ h1 {
     }
 
     .nav {
-        width: auto;
-        display: flex;
+        width: 100%;
+        display: inline;
+        align-items: center;
     }
 
     nav ul {
-        display: flex;
+        width: 100%;
+        display: inline;
     }
 
     nav li {
-        display: flex;
-        width: auto;
+        display: inline;
+        width: 100%;
         list-style-type: none;
         flex-direction: row;
         background-color: gainsboro;
         font-weight: bold;
+    }
+
+    .port-items {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto
     }
 }
