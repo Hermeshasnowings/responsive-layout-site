@@ -141,18 +141,25 @@ h1 {
         font-weight: bold;
     }
 
-    .port-items {
+    .container {
+        display: flex;
         width: 100%;
     }
 
     .row {
-        flex-wrap: wrap;
-        width: 50%;
+        display: inline;
     }
 
-    .contact {
-        display: flex;
-        flex-wrap: nowrap;
-        width: auto
+    footer {
+        display: inline-block;
+        font-weight: 100;
+        border-top: 3px;
+        border-color: black;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
+
+
 }
