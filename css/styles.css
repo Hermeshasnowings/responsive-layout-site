@@ -3,6 +3,10 @@ body {
     background-color: gainsboro;
 }
 
+header {
+    margin: auto;
+}
+
 h1 {
     text-align: center;
 }
@@ -41,25 +45,19 @@ h1 {
     }
 
     .nav {
-        display: flex;
-        width: auto;
-        align-items: center;
+        width: 100%;
+        overflow: hidden;
     }
 
     ul {
-        flex-direction: column;
-        width: auto;
-        margin: auto;
         list-style: none;
-        width: auto;
-        align-items: center;
+        overflow: hidden;
+        margin: auto;
     }
 
     li {
         margin: 5px;
-        padding: 10px 50px;
         background-color: white;
-        width: 100%;
         text-align: center;
     }
 
@@ -123,22 +121,21 @@ h1 {
 
     .nav {
         width: 100%;
-        display: inline;
-        align-items: center;
+
     }
 
     nav ul {
-        width: 100%;
-        display: inline;
+        margin: auto;
+        text-align: center;
     }
 
     nav li {
-        display: inline;
-        width: 100%;
+        display: inline-block;
         list-style-type: none;
-        flex-direction: row;
         background-color: gainsboro;
         font-weight: bold;
+        overflow: hidden;
+        margin: auto;
     }
 
 
