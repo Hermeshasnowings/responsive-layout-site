@@ -3,10 +3,6 @@ body {
     background-color: gainsboro;
 }
 
-header {
-    margin: auto;
-}
-
 h1 {
     text-align: center;
 }
@@ -29,13 +25,18 @@ h1 {
     margin: auto;
 }
 
-.project1 {
-    width: auto;
-}
-
 h2,
 h1 {
     font-weight: bold;
+}
+
+.skills {
+    background-color: white;
+    width: auto;
+    margin: 10px 5px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
 }
 
 @media only screen and (min-width: 0px) {
@@ -83,6 +84,7 @@ h1 {
         padding-top: 30px;
         padding-bottom: 40px;
         background-color: white;
+        border-radius: 3px;
     }
 
     .contact {
@@ -169,9 +171,15 @@ h1 {
         background-color: aliceblue;
     }
 
+
+
 }
 
 @media only screen and (min-width: 1024px) {
+
+    h1 {
+        flex-direction: row;
+    }
 
     .nav {
         display: flex;
@@ -181,4 +189,10 @@ h1 {
     .container {
         columns: 3;
     }
+
+    .intro-text {
+        text-align: left;
+    }
+
+
 }
