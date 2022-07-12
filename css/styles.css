@@ -39,6 +39,12 @@ h1 {
     padding: 10px;
 }
 
+.bar {
+    background-color: grey;
+    border-radius: 2px;
+    height: 3px;
+}
+
 @media only screen and (min-width: 0px) {
 
     header {
@@ -110,6 +116,12 @@ h1 {
     address p {
         font-weight: bold;
     }
+
+    .skills p {
+        background-color: antiquewhite;
+        border-radius: 5px;
+        padding: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -166,9 +178,7 @@ h1 {
         border: 5px;
         position: absolute;
         left: 0;
-        margin-top: 100px;
         text-align: left;
-        background-color: aliceblue;
     }
 
 
