@@ -140,7 +140,7 @@ body {
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: orange;
     margin: 10px;
     border-radius: 3px;
     padding: 10px;
@@ -151,6 +151,15 @@ h1 {
     color: orange;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+
+}
 
 .intro {
     padding: 10px;
@@ -280,6 +289,10 @@ address {
         font-weight: bold;
     }
 
+    .skills {
+        margin: 10px;
+    }
+
     .skills p {
         background-color: antiquewhite;
         border-radius: 5px;
@@ -307,7 +320,8 @@ address {
     nav {
         margin: auto;
         background-color: white;
-        width: fit-content
+        width: fit-content;
+        padding: 0px;
     }
 
     nav ul {
@@ -331,6 +345,20 @@ address {
 
     .portfolio {
         background-color: white;
+    }
+
+    .item {
+        flex: 1 1 0px;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+
+    .skills h2 {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
     }
 
     .skills {
