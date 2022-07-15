@@ -194,6 +194,11 @@ h1 {
     padding: 10px;
 }
 
+h4 {
+    padding: 10px;
+    font-weight: bold;
+}
+
 address {
     margin: 10px;
 }
@@ -278,6 +283,7 @@ address {
         font-weight: 100;
         border-top: 3px;
         border-color: black;
+        margin: 30px 15px;
     }
 
     address {
@@ -297,6 +303,7 @@ address {
         background-color: antiquewhite;
         border-radius: 5px;
         padding: 10px;
+        margin: 5px;
     }
 }
 
@@ -366,22 +373,27 @@ address {
     }
 
     .contact {
+        width: 60%;
         text-align: center;
-        margin: 10px;
+        margin: auto;
     }
+
 
     address {
         margin: 10px;
         display: inline;
+        padding: 10px;
+    }
+
+    address p {
+        padding: 10px;
     }
 
     footer {
         width: 100%;
         font-weight: 100;
-        border: 5px;
-        position: absolute;
-        left: 0;
-        text-align: left;
+        font-weight: 100;
+        margin: 30px 15px;
     }
 
 
