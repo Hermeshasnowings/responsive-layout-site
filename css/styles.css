@@ -135,8 +135,10 @@ table {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: gainsboro;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    color: gray;
 }
 
 nav {
@@ -284,17 +286,25 @@ address {
         font-weight: 100;
         border-top: 3px;
         border-color: black;
-        margin: 30px 15px;
+        margin: 20px 10px;
     }
 
     address {
-        display: flex;
         margin: 10px;
         color: orange;
     }
 
+    .email,
+    .phone {
+        display: inline-flex;
+    }
+
     address p {
-        font-weight: bold;
+        padding: 10px;
+    }
+
+    .bold {
+        font-weight: 400;
     }
 
     .skills {
