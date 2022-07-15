@@ -149,6 +149,7 @@ nav {
 h1 {
     text-align: center;
     color: orange;
+    font-family: 'Edu VIC WA NT Beginner';
 }
 
 a {
@@ -186,7 +187,7 @@ h1 {
 }
 
 .skills {
-    background-color: white;
+    background-color: orange;
     width: auto;
     margin: 10px 5px;
     border-radius: 3px;
@@ -289,6 +290,7 @@ address {
     address {
         display: flex;
         margin: 10px;
+        color: orange;
     }
 
     address p {
@@ -300,7 +302,7 @@ address {
     }
 
     .skills p {
-        background-color: antiquewhite;
+        background-color: white;
         border-radius: 5px;
         padding: 10px;
         margin: 5px;
