@@ -421,5 +421,9 @@ address {
         text-align: left;
     }
 
+    .bar {
+        width: 99%;
+        margin: auto;
+    }
 
 }
