@@ -305,6 +305,7 @@ address {
     .email,
     .phone {
         display: inline-flex;
+        margin: auto;
     }
 
     address p {
@@ -368,19 +369,16 @@ address {
 
 
     .container {
-        columns: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
     }
 
     .portfolio {
         background-color: white;
     }
 
-    .item {
-        flex: 1 1 0px;
-    }
-
     img {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     .skills h2 {
@@ -407,8 +405,9 @@ address {
 
     address {
         margin: 10px;
-        display: inline;
+        display: flex;
         padding: 10px;
+        flex-direction: column;
     }
 
     address p {
@@ -468,6 +467,15 @@ address {
     .skills .container {
         display: flex;
         justify-content: center;
+    }
+
+    .contact h4 {
+        padding-bottom: 30px;
+    }
+
+    address {
+        display: flex;
+        flex-direction: column;
     }
 
     .bar {
