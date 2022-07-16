@@ -139,6 +139,7 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 100;
     color: gray;
+    overflow-x: hidden;
 }
 
 nav {
@@ -185,7 +186,7 @@ h2,
 h1 {
     font-size: larger;
     font-weight: bold;
-    margin: 30px;
+    margin: 25px;
 }
 
 .skills {
@@ -197,22 +198,17 @@ h1 {
     padding: 10px;
 }
 
-h4 {
-    padding: 10px;
-    font-weight: bold;
-}
 
 address {
     margin: 10px;
 }
 
-.bar {
-    background-color: grey;
-    border-radius: 2px;
-    height: 3px;
-}
 
 @media only screen and (min-width: 320px) {
+
+    * {
+        box-sizing: border-box;
+    }
 
     header {
         width: auto;
@@ -254,19 +250,16 @@ address {
     }
 
     img {
-        width: 90%;
+        width: 95%;
         margin-top: 20px;
-        margin-bottom: 20px;
 
     }
 
     .portfolio {
         text-align: center;
-        margin: 10px;
         padding-top: 30px;
         padding-bottom: 40px;
         background-color: white;
-        border-radius: 3px;
     }
 
     .portfolio p {
@@ -277,10 +270,7 @@ address {
 
     .contact {
         text-align: center;
-        width: auto;
-        margin: auto;
         padding: 30px;
-        padding: 40px;
     }
 
     h5 {
@@ -294,7 +284,13 @@ address {
         font-weight: 100;
         border-top: 3px;
         border-color: black;
-        margin: 20px 10px;
+        margin: 20px 5px;
+    }
+
+    h4 {
+        padding: 10px;
+        font-weight: bold;
+        margin-bottom: 30px;
     }
 
     address {
@@ -316,15 +312,19 @@ address {
         font-weight: 400;
     }
 
-    .skills {
-        margin: 10px;
-    }
-
     .skills p {
         background-color: white;
         border-radius: 5px;
         padding: 10px;
         margin: 5px;
+    }
+
+    .bar {
+        background-color: grey;
+        border-radius: 2px;
+        height: 3px;
+        width: 95%;
+        margin: auto;
     }
 }
 
@@ -361,25 +361,31 @@ address {
     nav li a {
         list-style-type: none;
         font-weight: bold;
-        overflow: hidden;
         color: black;
         text-decoration: none;
 
     }
 
+    .portfolio {
+        background-color: white;
+        width: 100%;
+    }
 
     .container {
         display: grid;
         grid-template-columns: repeat(2, 50%);
+        grid-column: auto;
     }
 
-    .portfolio {
-        background-color: white;
+    .container p {
+        width: auto;
     }
 
     img {
-        margin-top: 10px;
+        max-width: 100%;
     }
+
+    ;
 
     .skills h2 {
         width: 100%;
@@ -392,8 +398,7 @@ address {
     }
 
     .skills .container {
-        display: flex;
-        justify-content: center;
+        display: grid;
     }
 
     .contact {
@@ -460,13 +465,20 @@ address {
         width: fit-content;
     }
 
+    .portfolio {
+        width: 100%;
+        border-radius: 3px;
+        margin: 10px;
+    }
+
     .container {
-        columns: 3;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skills .container {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
     }
 
     .contact h4 {
