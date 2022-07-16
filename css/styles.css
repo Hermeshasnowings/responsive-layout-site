@@ -392,6 +392,11 @@ address {
         margin: 10px;
     }
 
+    .skills .container {
+        display: flex;
+        justify-content: center;
+    }
+
     .contact {
         width: 60%;
         text-align: center;
@@ -422,17 +427,24 @@ address {
 
 @media only screen and (min-width: 1024px) {
 
-    header {
+    h1 {
+        width: 100%;
         display: flex;
+        justify-content: flex-start;
     }
 
-    .nav {
+    .top {
         display: flex;
-        justify-content: end;
+        width: 100%;
+    }
+
+    nav {
+        width: 90%;
     }
 
     ul,
     li {
+        justify-content: end;
         background-color: gainsboro;
     }
 
@@ -442,6 +454,12 @@ address {
 
     .intro-text {
         text-align: left;
+
+    }
+
+    .skills .container {
+        display: flex;
+        justify-content: center;
     }
 
     .bar {
