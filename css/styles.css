@@ -334,9 +334,10 @@ address {
     }
 
     .intro-section p {
-        padding-top: 50px;
+        margin-top: 5px;
         flex-wrap: wrap;
-
+        text-align: left;
+        line-height: 1.5;
     }
 
     img.intro {
@@ -439,7 +440,7 @@ address {
     }
 
     nav {
-        width: 90%;
+        width: 100%;
     }
 
     ul,
@@ -448,13 +449,20 @@ address {
         background-color: gainsboro;
     }
 
-    .container {
-        columns: 3;
+    .intro-section {
+        margin-top: 0px;
     }
 
-    .intro-text {
-        text-align: left;
+    p.intro-text {
+        padding-right: 30px;
+    }
 
+    img.intro {
+        width: fit-content;
+    }
+
+    .container {
+        columns: 3;
     }
 
     .skills .container {
