@@ -154,15 +154,15 @@ body {
         margin: 10px;
     }
 
-    h1 {
+    h1.title {
         text-align: center;
         color: orange;
-        font-family: 'Edu VIC WA NT Beginner';
+        font-family: 'Edu VIC WA NT Beginner', sans-serif;
+        font-size: 210%;
     }
 
     h2,
     h1 {
-        font-size: larger;
         font-weight: bold;
         margin: 25px;
     }
@@ -252,18 +252,9 @@ body {
 
     h5 {
         padding: 10px;
-        font-weight: 400;
+        font-weight: bold;
     }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-        font-weight: 100;
-        border-top: 3px;
-        border-color: black;
-        margin: 20px 5px;
-        color: black;
-    }
 
     .display {
         display: none;
@@ -316,6 +307,16 @@ body {
         height: 3px;
         width: 95%;
         margin: auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 100;
+        border-top: 3px;
+        border-color: black;
+        margin: 20px 5px;
+        color: black;
     }
 
 }
