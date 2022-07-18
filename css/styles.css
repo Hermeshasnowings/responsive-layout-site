@@ -285,6 +285,11 @@ address {
         border-top: 3px;
         border-color: black;
         margin: 20px 5px;
+
+    }
+
+    .display {
+        opacity: 0;
     }
 
     h4 {
