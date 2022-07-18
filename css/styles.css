@@ -177,7 +177,7 @@ body {
 
     }
 
-    nav {
+    .top-nav {
         margin: auto;
         width: 100%;
         overflow: hidden;
@@ -339,7 +339,7 @@ body {
         width: 100%;
     }
 
-    nav {
+    .top-nav {
         margin: auto;
         background-color: white;
         width: fit-content;
@@ -455,7 +455,7 @@ body {
         width: 100%;
     }
 
-    nav {
+    .top-nav {
         width: 100%;
     }
 
