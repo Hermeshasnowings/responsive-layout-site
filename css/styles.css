@@ -285,11 +285,10 @@ address {
         border-top: 3px;
         border-color: black;
         margin: 20px 5px;
-        margin-bottom: -100px;
     }
 
     .display {
-        opacity: 0;
+        display: none;
     }
 
     h4 {
@@ -431,10 +430,11 @@ address {
         font-weight: 100;
         font-weight: 100;
         margin: auto;
+        margin-bottom: 20px;
     }
 
     .display {
-        opacity: 1;
+        display: block;
     }
 
     .stu-name {
