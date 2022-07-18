@@ -285,7 +285,7 @@ address {
         border-top: 3px;
         border-color: black;
         margin: 20px 5px;
-
+        margin-bottom: -100px;
     }
 
     .display {
@@ -331,6 +331,7 @@ address {
         width: 95%;
         margin: auto;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -425,11 +426,33 @@ address {
     }
 
     footer {
-        width: 100%;
+        display: flex;
+        width: 95%;
         font-weight: 100;
         font-weight: 100;
-        margin: 30px 15px;
+        margin: auto;
     }
+
+    .display {
+        opacity: 1;
+    }
+
+    .stu-name {
+        order: -2;
+        margin-top: 10px;
+    }
+
+    .btt {
+        opacity: 0;
+        order: -1;
+    }
+
+    .bottom-nav {
+        display: flex;
+        float: right;
+        margin-top: 10px;
+    }
+
 
 
 
@@ -499,5 +522,6 @@ address {
         width: 99%;
         margin: auto;
     }
+
 
 }
